@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Program Uninstaller
+Comment=Remove packages and search for leftovers
+Exec=pu_launcher.sh
+Terminal=true
+Categories=System;PackageManager;
+Keywords=uninstall;remove;package;cleanup;
+StartupNotify=false
+Icon=program-uninstaller.png
