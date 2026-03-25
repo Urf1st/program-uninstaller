@@ -39,8 +39,9 @@ or through app menu of your DE.
 - If you are able to do it would be great to have fully functional GUI.
 
 ## Roadmap
-- Uninstalling script
+- Uninstalling script.
 - Flatpak version.
+- "Hunter mode".
 - pip version.
 - More search paths for leftovers.
 - Better search logic (lower and upper case).
