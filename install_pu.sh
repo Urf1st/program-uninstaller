@@ -21,17 +21,17 @@ chmod +x pu_launcher.sh
 if command -v dnf &>/dev/null; then
     sudo dnf install -y python3
     python3 -m venv ~/.local/lib/program_uninstaller/venv
-    ~/.local/lib/program_uninstaller/venv/bin/pip install textual
+    ~/.local/lib/program_uninstaller/venv/bin/pip install textual==8.1.1
 elif command -v pacman &>/dev/null; then
     sudo pacman -S python3 --noconfirm
     python3 -m venv ~/.local/lib/program_uninstaller/venv
-    ~/.local/lib/program_uninstaller/venv/bin/pip install textual
+    ~/.local/lib/program_uninstaller/venv/bin/pip install textual==8.1.1
 elif command -v apt &>/dev/null; then
     sudo apt install -y python3 python3-venv
     python3 -m venv ~/.local/lib/program_uninstaller/venv
-    ~/.local/lib/program_uninstaller/venv/bin/pip install textual
+    ~/.local/lib/program_uninstaller/venv/bin/pip install textual==8.1.1
 elif command -v zypper &>/dev/null; then
     sudo zypper install -y python3
     python3 -m venv ~/.local/lib/program_uninstaller/venv
-    ~/.local/lib/program_uninstaller/venv/bin/pip install textual
+    ~/.local/lib/program_uninstaller/venv/bin/pip install textual==8.1.1
 fi
